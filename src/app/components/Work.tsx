@@ -5,7 +5,7 @@ export default function Work() {
   return (
     <>
       <div className=" flex w-full flex-col gap-4 text-sm lg:flex-row">
-        <div className="relative flex flex-col items-center justify-center rounded-xl bg-gradient-to-r from-pink-500 to-rose-500 lg:w-1/2 lg:p-12">
+        <div className="relative flex flex-col items-center justify-center rounded-lg bg-gradient-to-r from-pink-500 to-rose-500 lg:w-1/2 lg:p-12">
           <img
             className="h-60 object-contain lg:h-96"
             src="./creditscore.png"
@@ -20,7 +20,7 @@ export default function Work() {
           </div>
         </div>
 
-        <div className="relative flex flex-col items-center justify-center rounded-xl bg-gradient-to-r from-cyan-500 to-blue-500 lg:w-1/2 lg:p-12">
+        <div className="relative flex flex-col items-center justify-center rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 lg:w-1/2 lg:p-12">
           <img
             className="h-60 object-contain lg:h-96"
             src="./messly_home.png"
