@@ -4,8 +4,12 @@ import Link from "next/link";
 export default function Work() {
   return (
     <>
-      <div className="pl-2 pt-8 text-2xl font-semibold lg:pt-20">
-        Currently building:
+      <div className="pl-2 pt-8 text-sm font-semibold lg:pt-20">
+        In development
+      </div>
+      <div className=" pl-2 text-sm">
+        SumTube is an AI app that allows creators to generate a video/podcast
+        summary with timestamps easily.
       </div>
       <div className="flex w-full flex-col items-center rounded-lg bg-gray-300">
         {" "}
