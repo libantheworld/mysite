@@ -4,8 +4,10 @@ import Link from "next/link";
 export default function Work() {
   return (
     <>
-      <div className="pl-2 pt-8 text-sm font-semibold lg:pt-20">
-        In development
+      <div className="mt-8 flex flex-row">
+        <button className="mt-12 rounded-full border border-green-500 bg-green-400 px-4 py-2 text-sm text-green-950">
+          In development
+        </button>
       </div>
       <div className=" pl-2 text-sm">
         SumTube is an AI app that allows creators to generate a video/podcast
@@ -16,8 +18,11 @@ export default function Work() {
         <img className="" src="./desktop.png" />
       </div>
 
-      <div className="pl-2 pt-20 text-2xl font-semibold">Previous work:</div>
-
+      <div className="mt-8 flex flex-row">
+        <button className="mt-12 rounded-full border border-blue-600 bg-blue-300 px-4 py-2 text-sm text-blue-950">
+          Previous work
+        </button>
+      </div>
       <div className=" flex w-full flex-col gap-4 text-sm lg:flex-row">
         <div className="relative flex flex-col items-center justify-center rounded-lg bg-gradient-to-r from-pink-500 to-rose-500 lg:w-1/2 lg:p-12">
           <img
