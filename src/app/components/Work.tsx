@@ -19,7 +19,7 @@ export default function Work() {
       </div>
 
       <div className="mt-8 flex flex-row">
-        <button className="mt-12 rounded-full border border-blue-600 bg-blue-300 px-4 py-2 text-sm text-blue-950">
+        <button className="mt-12 rounded-full border border-slate-600 bg-slate-300 px-4 py-2 text-sm text-slate-950">
           Previous work
         </button>
       </div>
